@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+	<script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+	<script type="text/javascript" src="text.js"></script>
+	<link rel="stylesheet/less" type="text/css" href="less/style.less">
+	<script type="text/javascript" src="http://cdn.bootcss.com/less.js/1.7.0/less.min.js"></script>
+	</script>
+</head>
+<body ng-app="testModel">
+<div ng-controller="testController">
+	<div>
+	<!-- ddnumber为数据绑定标签 -->
+		<inputdd class="sada" ddnumber="num">
+		</inputdd>
+		{{num}}
+	</div>
+	<!-- 单选框 -->
+	<checkboxcontain type="radio">
+		<checkboxdd class="checkbox_dd"  title="单选框1"></checkboxdd>
+		<checkboxdd class="checkbox_dd"  title="单选框2"></checkboxdd>
+		<checkboxdd class="checkbox_dd"  title="单选框3"></checkboxdd>
+		<checkboxdd class="checkbox_dd"  title="单选框4"></checkboxdd>
+	</checkboxcontain>
+	<!-- 多选框 -->
+	<checkboxcontain type="checkbox">
+		<checkboxdd class="checkbox_dd"  title="多选框1"></checkboxdd>
+		<checkboxdd class="checkbox_dd"  title="多选框2"></checkboxdd>
+		<checkboxdd class="checkbox_dd"  title="多选框3"></checkboxdd>
+		<checkboxdd class="checkbox_dd"  title="多选框4"></checkboxdd>
+	</checkboxcontain>
+</div>
+</body>
+</html>
